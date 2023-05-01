@@ -3,7 +3,6 @@ package p01_calculator;
 import java.util.Scanner;
 
 
-
 public class calculator {
 
    public static void main(String[] args) {
