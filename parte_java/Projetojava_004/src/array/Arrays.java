@@ -11,14 +11,14 @@ public class Arrays {
 		numeros[1] = 6;
 		numeros[2] = -3;
 		numeros[3] = -2;
+		
 
 		int soma = numeros[0] + numeros[1] + numeros[2] + numeros[3];
 		System.out.println("Soma : " + soma);
-
 		
-		
-		
-
 	}
-
 }
+/*
+Soma : 5
+
+*/

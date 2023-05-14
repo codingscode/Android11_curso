@@ -20,7 +20,6 @@ public class operadores_condicionais {
       resultado = numero1 < numero2 ? true : false;
       System.out.println("resultado: " + resultado);
       
-		
    }
 
 }

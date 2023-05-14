@@ -26,9 +26,5 @@ public class Veiculo {
    public int getVelMax() {
 	  return velMax;
    }
-   
-   
-   
 
 }
-

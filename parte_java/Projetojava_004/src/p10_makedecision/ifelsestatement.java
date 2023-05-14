@@ -4,7 +4,6 @@ package p10_makedecision;
 import java.util.Scanner;
 
 
-
 public class ifelsestatement {
 
    public static void main(String[] args) {

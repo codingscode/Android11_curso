@@ -13,7 +13,4 @@ public class Veiculo {
       System.out.printf("Velocidade Máxima: %d\n", velMax);
    }
    
-
 }
-
-

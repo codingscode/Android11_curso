@@ -2,8 +2,6 @@
 package p02_loop;
 
 
-
-
 public class t2_foreach {
 
    public static void main(String[] args) {
@@ -58,4 +56,3 @@ numero: 1
 soma: 10
 
 */
-

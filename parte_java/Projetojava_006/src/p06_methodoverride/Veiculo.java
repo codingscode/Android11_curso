@@ -2,7 +2,6 @@
 package p06_methodoverride;
 
 
-
 public class Veiculo {
    public void iniciar() {
       System.out.println("Veiculo iniciou.");
@@ -16,6 +15,4 @@ public class Veiculo {
       System.out.println("Veiculo parou.");
    }
 
-
 }
-

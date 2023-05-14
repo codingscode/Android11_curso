@@ -2,8 +2,6 @@
 package p01_objetos;
 
 
-
-
 public class t1_constructor {
 
    public static void main(String[] args) {
@@ -26,7 +24,7 @@ public class t1_constructor {
 /*
 Ferrari iniciou
 a velocidade atual de Ferrari é 20
-Ferrariparou
+Ferrari parou
 a velocidade atual de Ferrari é 0
 -----------
 Modelo: Celta Cor: azul Ano: 2013

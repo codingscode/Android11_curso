@@ -2,7 +2,6 @@
 package p04_nestedclass;
 
 
-
 public class T2_innerteste {
 
    public static void main(String[] args) {
@@ -18,4 +17,4 @@ a = 5
 b = 10
 c = 15
 
- */
+*/

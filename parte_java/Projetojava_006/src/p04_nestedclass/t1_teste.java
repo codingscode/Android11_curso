@@ -2,7 +2,6 @@
 package p04_nestedclass;
 
 
-
 public class t1_teste {
 
    public static void main(String[] args) {

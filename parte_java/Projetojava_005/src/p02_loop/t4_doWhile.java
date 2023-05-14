@@ -1,6 +1,7 @@
-package p02_loop;
 
+package p02_loop;
 import java.util.Scanner;
+
 
 public class t4_doWhile {
 
@@ -33,11 +34,10 @@ public class t4_doWhile {
             case 3:
                System.out.println("Laranja");
                break;
-                          
          }
          
       } while (escolha != 4);
-
+      entrada.close();
    }
 
 }

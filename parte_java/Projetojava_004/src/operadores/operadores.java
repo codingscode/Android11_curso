@@ -20,7 +20,7 @@ public class operadores {
       System.out.printf("numero1 / numero2: %.2f\n", resultado);
       
       resultado = numero1 % numero2;
-      System.out.printf("numero1 / numero2: %.2f\n", resultado);
+      System.out.printf("numero1 %% numero2: %.2f\n", resultado);
 
    }
 
@@ -30,13 +30,6 @@ numero1 + numero2: 11,80
 numero1 - numero2: 5,40
 numero1 * numero2: 27,52
 numero1 / numero2: 2,69
-numero1 / numero2: 2,20
+numero1 % numero2: 2,20
+
 */
-
-
-
-
-
-
-
-

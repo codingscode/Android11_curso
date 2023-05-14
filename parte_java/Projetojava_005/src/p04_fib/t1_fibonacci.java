@@ -1,3 +1,4 @@
+
 package p04_fib;
 import java.util.Scanner;
 
@@ -10,12 +11,14 @@ public class t1_fibonacci {
       System.out.print("quantidade máxima para a sequencia: ");
       int numero = entrada.nextInt();
       int previoFib = 0, fibonacci = 1, soma = 0;
+      
       for (int i=1; i<=numero; i++) {
          System.out.print(previoFib + " ");
          soma = previoFib + fibonacci;
          previoFib = fibonacci;
          fibonacci = soma;
       }
+      
       entrada.close();
    }
 

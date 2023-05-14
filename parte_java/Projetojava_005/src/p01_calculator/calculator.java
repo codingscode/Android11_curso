@@ -37,10 +37,9 @@ public class calculator {
             return;
       }
       
-      System.out.printf("%d + %d = %.2f", numero1, numero2, resultado);
+      System.out.printf("%d %c %d = %.2f", numero1, operador, numero2, resultado);
       
       entrada.close();
-
    }
 
 }
@@ -48,39 +47,23 @@ public class calculator {
 /*
 ------ CALCULATOR ------
 Digite dois numeros inteiros:
-3
-4
-Escolha uma operação (+, -, *, /, %) : 
-+
-3 + 4 = 7,00
-
-
------- CALCULATOR ------
-Digite dois numeros inteiros:
-3
-4
+2 3
 Escolha uma operação (+, -, *, /, %) : 
 *
-3 + 4 = 12,00
-
+2 * 3 = 6,00
 
 ------ CALCULATOR ------
 Digite dois numeros inteiros:
-17
-6
+4 5
+Escolha uma operação (+, -, *, /, %) : 
++
+4 + 5 = 9,00
+
+------ CALCULATOR ------
+Digite dois numeros inteiros:
+12 5
 Escolha uma operação (+, -, *, /, %) : 
 %
-17 + 6 = 5,00
-
-
------- CALCULATOR ------
-Digite dois numeros inteiros:
-8
-3
-Escolha uma operação (+, -, *, /, %) : 
-&
-Operador Inválido!
-
-
+12 % 5 = 2,00
 */
 

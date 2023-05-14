@@ -2,7 +2,6 @@
 package p07_oper_igualdade_relacional;
 
 
-
 public class igualdade_relacional {
 
    public static void main(String[] args) {

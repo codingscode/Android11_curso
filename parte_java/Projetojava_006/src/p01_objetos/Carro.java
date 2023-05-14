@@ -31,7 +31,7 @@ public class Carro {
    }
    
    public void parar() {
-      System.out.println(this.modelo + "parou");
+      System.out.println(this.modelo + " parou");
       this.velocidadeAtual = 0;
    }
    
@@ -44,9 +44,3 @@ public class Carro {
    }   
    
 }
-
-
-
-
-
-

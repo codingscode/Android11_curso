@@ -1,4 +1,6 @@
+
 package p09_operator_precedence;
+
 
 public class operator_precedence {
 
@@ -23,5 +25,3 @@ resultado : 28
 soma : 12
 
 */
-
-

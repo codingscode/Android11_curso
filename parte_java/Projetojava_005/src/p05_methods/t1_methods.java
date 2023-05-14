@@ -10,11 +10,15 @@ public class t1_methods {
       System.out.print("Digite 2 números: ");
       int numero1 = entrada.nextInt();
       int numero2 = entrada.nextInt();
+      
       mostrar(numero1, numero2);
+      
       int a = somar(numero1, numero2);
       int b = minimo(numero1, numero2);
+      
       System.out.printf("\nSoma dos numeros: %d\n", a);
       System.out.printf("Mínimo dos numeros: %d\n", b);
+      
       entrada.close();
    }
 

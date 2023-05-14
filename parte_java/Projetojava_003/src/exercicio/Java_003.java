@@ -10,7 +10,7 @@ public class Java_003 {
 		int x = 10;
 		int y = 20;
 		int z = x + y;
-		System.out.printf("Conta: %d + %d = %d .", x, y, z);
+		System.out.printf("Conta: %d + %d = %d .\n", x, y, z);
 		
 		
 	}

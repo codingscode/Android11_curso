@@ -11,9 +11,7 @@ public class Java_004 {
 		int numero = entrada.nextInt();
 
 		System.out.println("você digitou : " + numero);
-        
-		
-        
+                
         Scanner entradaTexto = new Scanner(System.in);
         System.out.print("digite um texto: ");
         String texto = entradaTexto.next();
@@ -23,7 +21,6 @@ public class Java_004 {
         entrada.close();
         entradaTexto.close();
 
-
 	}
 
 	/*
@@ -31,7 +28,6 @@ public class Java_004 {
     você digitou : 3
     digite um texto: java
     você digitou : java
-
  
 	 
 	*/

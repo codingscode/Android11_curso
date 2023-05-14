@@ -6,8 +6,6 @@ public class TiposDados {
 
 	public static void main(String[] args) {
 		
-		
-		
 		boolean a = true;
 		char b = 'R';
 		byte c = 12;
@@ -25,8 +23,7 @@ public class TiposDados {
         System.out.println("f = " + f);
         System.out.println("g = " + g);
         System.out.println("h = " + h);
-        		
-		
+        
 	}
 
 }

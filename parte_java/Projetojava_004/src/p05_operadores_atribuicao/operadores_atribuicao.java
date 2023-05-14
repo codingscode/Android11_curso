@@ -1,6 +1,5 @@
+
 package p05_operadores_atribuicao;
-
-
 
 
 public class operadores_atribuicao {
@@ -25,7 +24,6 @@ public class operadores_atribuicao {
       
       z %= x;
       System.out.println("z %= x = " + z);
-      
       
    }
 

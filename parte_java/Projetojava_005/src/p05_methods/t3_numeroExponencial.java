@@ -35,5 +35,3 @@ Digite o expoente:
 3 elevado a 4 : 81 
 
 */
-
-

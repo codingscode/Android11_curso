@@ -18,8 +18,6 @@ public class t1_exemplo {
       
    }
    
-   
-
 }
 
 /*

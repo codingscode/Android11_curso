@@ -1,6 +1,5 @@
 
- package p02_loop;
-
+package p02_loop;
 
 
 public class t3_while {
@@ -21,10 +20,7 @@ public class t3_while {
          System.out.println(k + "!" + " = " + fact);
          k++;
       }
-
-
    }
-
 }
 
 /*
@@ -34,7 +30,6 @@ public class t3_while {
 3! = 6
 4! = 24
 5! = 120
-
 
 */
 

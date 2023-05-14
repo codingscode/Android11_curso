@@ -2,7 +2,6 @@
 package p03_static;
 
 
-
 public class t1_teste {
 
    public static void main(String[] args) {

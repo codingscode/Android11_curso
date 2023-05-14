@@ -18,7 +18,6 @@ public class t1_overrideteste {
       carro.acelerar(100);
       carro.parar();
 
-
    }
 
 }
@@ -29,6 +28,5 @@ Veiculo parou.
 Carro iniciou.
 Carro acelerou em 100.
 Carro parou.
-
 
 */
