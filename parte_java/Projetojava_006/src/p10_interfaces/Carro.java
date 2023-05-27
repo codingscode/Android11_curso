@@ -2,7 +2,6 @@
 package p10_interfaces;
 
 
-
 public class Carro implements Drivable{
 
    @Override
@@ -14,8 +13,6 @@ public class Carro implements Drivable{
    public void vireDireita() {
       System.out.println("Carro pode virar a direita.");
    }
-   
-   
+
 
 }
-

@@ -7,6 +7,7 @@ public class Veiculo {
    private String modelo;
    private int velMax;
    
+   // construtor
    public Veiculo(String modelo, int velMax) {
       this.modelo = modelo;
       this.velMax = velMax;

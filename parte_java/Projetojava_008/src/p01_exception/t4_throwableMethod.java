@@ -19,8 +19,11 @@ public class t4_throwableMethod {
       catch(ArithmeticException e) {
          System.out.println("divisor não pode ser igual a 0");
          // useful Throwable methods
+         System.out.println("1");
          System.out.println(e.getMessage());
+         System.out.println("2");
          System.out.println(e.toString());
+         System.out.println("3");
          e.printStackTrace();
       }
 

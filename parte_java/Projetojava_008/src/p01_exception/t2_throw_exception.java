@@ -7,7 +7,7 @@ public class t2_throw_exception {
 
    public static double dividir(double x, double y) {
       if (y == 0) {
-         throw new ArithmeticException("Divisor não ser igual a 0!");
+         throw new ArithmeticException("Divisor não pode ser igual a 0!");
       }
       return x / y;
    }

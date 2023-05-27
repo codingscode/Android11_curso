@@ -7,7 +7,6 @@ public class Carro extends Veiculo{
 
    public Carro(String tipo, String modelo) {
       super(tipo, modelo);
-
    }
 
    @Override
@@ -21,7 +20,7 @@ public class Carro extends Veiculo{
    public void iniciar() {
       System.out.println("Carro iniciou");
    }
-	   
+
    @Override
    public void parar() {
       System.out.println("Carro parou");

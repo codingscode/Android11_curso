@@ -12,7 +12,6 @@ public class Veiculo {
       System.out.println("velocidade máxima do veiculo é 180.");
    }
 
-
 }
 
 // ver os erros de vermelho em Carro.java

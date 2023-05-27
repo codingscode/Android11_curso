@@ -18,5 +18,4 @@ public class Carro extends Veiculo{
       this.eAutomatico = eAutomatico;
    }
    
-
 }
