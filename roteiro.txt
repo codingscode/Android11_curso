@@ -2,7 +2,13 @@
 
 parte android agora
 
+res/drawable
+   serve para colocar imagens
+   
+res/values/colors.xml -> serve para cores
 
+
+   
 
 
 
