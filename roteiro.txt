@@ -22,7 +22,7 @@ agora os dois botoes não estao por cima do outro
 propriedades no lado direito na parte xml
 padding
 
-
+quando executa, a cor que era vermelha, fica setada como preta
 
 
 
