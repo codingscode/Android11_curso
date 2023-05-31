@@ -24,7 +24,7 @@ padding
 
 quando executa, a cor que era vermelha, fica setada como preta
 
-
+pressionando a cor do texto muda
 
 
 

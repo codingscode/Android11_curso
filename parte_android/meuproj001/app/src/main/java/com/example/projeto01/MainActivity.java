@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +21,13 @@ public class MainActivity extends AppCompatActivity {
         texto.setTextColor(Color.BLACK);
         
         texto.setText("outro texto setado");
+        
+        texto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               texto.setTextColor(Color.CYAN);
+            }
+        });
         
         
     }
