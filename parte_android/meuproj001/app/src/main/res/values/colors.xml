@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="outro">#FCF3CB</color>
-    <color name="laranja">#ECA239</color>
+    <color name="laranja">#FF9800</color>
     <color name="roxo">#A516C5</color>
+    <color name="verde">#75FF9D</color>
 </resources>
