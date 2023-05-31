@@ -12,12 +12,18 @@
         android:id="@+id/a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="botao a" />
+        android:text="botao a"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+         />
 
     <Button
         android:id="@+id/b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="botao b" />
+        android:text="botao b" 
+        android:layout_below="@+id/a"
+        android:layout_centerHorizontal="true"
+        />
 </RelativeLayout>
 
