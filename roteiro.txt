@@ -19,6 +19,8 @@ um em cima do outro
 agora os dois botoes não estao por cima do outro
 
 
+propriedades no lado direito na parte xml
+padding
 
 
 
