@@ -14,7 +14,7 @@ R. Java File
 observar
 /home/misterhp/Programacao/curso_android11/parte_android/meuproj001/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar
 
-
+um em cima do outro
 
 
 
