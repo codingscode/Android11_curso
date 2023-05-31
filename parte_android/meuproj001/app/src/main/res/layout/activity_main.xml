@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="botao b" 
-        android:layout_below="@+id/a"
+        android:layout_above="@+id/a"
         android:layout_centerHorizontal="true"
         />
 </RelativeLayout>
