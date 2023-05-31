@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                texto.setTextColor(Color.CYAN);
+               texto.setBackgroundColor(Color.BLACK);
             }
         });
         
