@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         
         texto.setTextColor(Color.BLACK);
         
+        texto.setText("outro texto setado");
+        
         
     }
 }
