@@ -36,6 +36,9 @@ a cor não tá pegando
 
 é criado um campo de texto input
 
+rodar do jeito que está, ignorar os vermelhos
+
+
 
 
 
