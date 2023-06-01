@@ -34,6 +34,7 @@ pressionando "Botao 2" a cor de fundo fica preta
 em res -> drawable -> botao direito -> New -> Drawable Resource File -> 
 a cor não tá pegando
 
+é criado um campo de texto input
 
 
 

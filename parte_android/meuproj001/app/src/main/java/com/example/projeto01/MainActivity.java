@@ -10,9 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView texto;
-    Button botao;
-    
+
     
 
     @Override
@@ -20,37 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        texto = findViewById(R.id.textoid1);
-        botao = findViewById(R.id.botao2);
 
-        botao.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               botao.setBackgroundColor(Color.BLACK);
-               texto.setText("alteração feita");
-               texto.setVisibility(View.INVISIBLE);
-               //botao.setVisivility(View.INVISIBLE);
-               
-               
-            }
-        });
-        
-        texto.setTextColor(Color.BLACK);
-        
-        texto.setText("outro texto setado");
-
-        
-
-
-
-        /*texto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               texto.setTextColor(Color.CYAN);
-               texto.setBackgroundColor(Color.BLACK);
-            }
-        });*/
-        
         
     }
 }
