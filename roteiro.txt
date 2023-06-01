@@ -29,6 +29,8 @@ pressionando a cor do texto muda
 olhar
 https://coolors.co/contrast-checker/171b1a-ff9800
 
+pressionando "Botao 2" a cor de fundo fica preta
+
 
 
 
