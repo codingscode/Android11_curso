@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                botao.setBackgroundColor(Color.BLACK);
+               texto.setText("alteração feita");
             }
         });
         
