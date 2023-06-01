@@ -31,7 +31,7 @@ https://coolors.co/contrast-checker/171b1a-ff9800
 
 pressionando "Botao 2" a cor de fundo fica preta
 
-
+em res -> drawable -> botao direito -> New -> Drawable Resource File -> 
 
 
 

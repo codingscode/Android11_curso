@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
                botao.setBackgroundColor(Color.BLACK);
                texto.setText("alteração feita");
                texto.setVisivility(View.INVISIBLE);
+               //botao.setVisivility(View.INVISIBLE);
+               
+               
             }
         });
         
