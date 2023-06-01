@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                botao.setBackgroundColor(Color.BLACK);
                texto.setText("alteração feita");
-               texto.setVisivility(View.INVISIBLE);
+               texto.setVisibility(View.INVISIBLE);
                //botao.setVisivility(View.INVISIBLE);
                
                
