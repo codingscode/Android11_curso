@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,59 +19,43 @@ public class MainActivity extends AppCompatActivity {
     Button ok;
     TextView resultado;
     ImageView imagem;
-    CheckBox masculino;
-    CheckBox feminino;
-    
+    RadioGroup radioGroup;
+    RadioButton verde;
+    RadioButton vermelho;
+    RadioButton amarelo;
+    LinearLayout layout;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
 
         ok = findViewById(R.id.botao_ok);
         resultado = findViewById(R.id.textoresultado);
         imagem = findViewById(R.id.imagem);
 
-        masculino = findViewById(R.id.masculino);
-        feminino = findViewById(R.id.feminino);
-
-        masculino.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               if (masculino.isChecked()) {
-                  resultado.setText("masculino");
-                  feminino.setChecked(false);
-               }
-               else {
-                  resultado.setText("qual seu gênero?");
-               }
-            }
-        });
-        
-        feminino.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               if (feminino.isChecked()) {
-                  resultado.setText("feminino");
-                  masculino.setChecked(false);
-               }
-               else {
-                  resultado.setText("qual seu gênero?");
-               }
-            }
-        });
+        radioGroup = findViewById(R.id.grupo);
+        verde = findViewById(R.id.rbverde);
+        vermelho = findViewById(R.id.rbvermelho);
+        amarelo = findViewById(R.id.rbamarelo);
+        layout = findViewById(R.id.layout_linear);
 
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-
-               imagem.setImageResource(R.drawable.vegeta);
+            public void onClick(View view) {
+               if (verde.isChecked()) {
+                  layout.setBackgroundColor(Color.GREEN);
+               }
+               else if (vermelho.isChecked()) {
+                  layout.setBackgroundColor(Color.RED);
+               }
+               else if(amarelo.isChecked()) {
+                  layout.setBackgroundColor(Color.YELLOW);
+               }
                
             }
         });
-
-        
 
         
     }

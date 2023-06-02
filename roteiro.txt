@@ -52,6 +52,9 @@ checkbox
 
 um checkbox desmarca outro
 
+marcando uma cor e pressionando ok, a cor de fundo do layout muda
+
+
 
 
 
