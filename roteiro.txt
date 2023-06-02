@@ -42,6 +42,7 @@ o primeiro texto ficar verde quando se edita
 
 o texto já pode ser setado
 
+Widgets -> ImageView
 
 
 
