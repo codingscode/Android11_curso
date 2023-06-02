@@ -48,6 +48,9 @@ scaleType -> posiciona imagem dentro de seu quadro caso não esteja o ocupando t
 
 pressionando 'ok' a imagem é trocada por outra
 
+checkbox
+
+
 
 
 

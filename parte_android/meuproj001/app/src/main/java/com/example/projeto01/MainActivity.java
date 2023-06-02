@@ -6,17 +6,18 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText nome;
     Button ok;
     TextView resultado;
-    String nomeusuario;
     ImageView imagem;
+    CheckBox masculino;
+    CheckBox feminino;
     
 
     @Override
@@ -24,17 +25,42 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        nome = findViewById(R.id.textoeditavel);
+
         ok = findViewById(R.id.botao_ok);
         resultado = findViewById(R.id.textoresultado);
         imagem = findViewById(R.id.imagem);
 
+        masculino = findViewById(R.id.masculino);
+        feminino = findViewById(R.id.feminino);
+
+        masculino.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               if (masculino.isChecked()) {
+                  resultado.setText("masculino");
+               }
+               else {
+                  resultado.setText("qual seu gênero?");
+               }
+            }
+        });
+        
+        feminino.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               if (feminino.isChecked()) {
+                  resultado.setText("feminino");
+               }
+               else {
+                  resultado.setText("qual seu gênero?");
+               }
+            }
+        });
+
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               nomeusuario = nome.getText().toString();
-               resultado.setText(nomeusuario);
-               
+
                imagem.setImageResource(R.drawable.vegeta);
                
             }
