@@ -38,6 +38,7 @@ a cor não tá pegando
 
 rodar do jeito que está, ignorar os vermelhos
 
+o primeiro texto ficar verde quando se edita
 
 
 

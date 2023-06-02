@@ -5,44 +5,41 @@
     android:id="@+id/layoutde"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/outro"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="match_parent"
+        android:id="@+id/textoeditavel"
+        android:layout_width="300dp"
         android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
         android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="escreva seu nome"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:textColor="@color/verde" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/botao_ok"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="ok"
+        android:textColor="@color/laranja" />
 
-    <EditText
-        android:id="@+id/editTextNumberPassword"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="numberPassword" />
+    <TextView
+        android:id="@+id/textoresultado"
+        android:layout_width="300dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="resultado"
+        android:textColor="@color/roxo"
+        android:textSize="22sp" />
 
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="number" />
-
-    <EditText
-        android:id="@+id/editTextTextMultiLine"
-        android:layout_width="match_parent"
-        android:layout_height="86dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine" />
 </LinearLayout>
