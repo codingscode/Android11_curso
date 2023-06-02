@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                if (masculino.isChecked()) {
                   resultado.setText("masculino");
+                  feminino.setChecked(false);
                }
                else {
                   resultado.setText("qual seu gênero?");
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                if (feminino.isChecked()) {
                   resultado.setText("feminino");
+                  masculino.setChecked(false);
                }
                else {
                   resultado.setText("qual seu gênero?");

@@ -50,6 +50,7 @@ pressionando 'ok' a imagem é trocada por outra
 
 checkbox
 
+um checkbox desmarca outro
 
 
 
