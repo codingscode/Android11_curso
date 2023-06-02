@@ -44,6 +44,9 @@ o texto já pode ser setado
 
 Widgets -> ImageView
 
+scaleType -> posiciona imagem dentro de seu quadro caso não esteja o ocupando todo
+
+pressionando 'ok' a imagem é trocada por outra
 
 
 
