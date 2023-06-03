@@ -7,23 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
 
     Button ok;
     TextView resultado;
     ImageView imagem;
-    RadioGroup radioGroup;
-    RadioButton verde;
-    RadioButton vermelho;
-    RadioButton amarelo;
-    LinearLayout layout;
+    ToggleButton toggle;
+    
 
 
     @Override
@@ -34,26 +33,20 @@ public class MainActivity extends AppCompatActivity {
         ok = findViewById(R.id.botao_ok);
         resultado = findViewById(R.id.textoresultado);
         imagem = findViewById(R.id.imagem);
-
-        radioGroup = findViewById(R.id.grupo);
-        verde = findViewById(R.id.rbverde);
-        vermelho = findViewById(R.id.rbvermelho);
-        amarelo = findViewById(R.id.rbamarelo);
-        layout = findViewById(R.id.layout_linear);
-
-        ok.setOnClickListener(new View.OnClickListener() {
+        toggle = findViewById(R.id.toggleMostrar);
+        
+        toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onClick(View view) {
-               if (verde.isChecked()) {
-                  layout.setBackgroundColor(Color.GREEN);
+            //public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+               if (isChecked) {
+                  imagem.setVisibility(View.INVISIBLE);
+                  resultado.setText("Imagem está escondida");
                }
-               else if (vermelho.isChecked()) {
-                  layout.setBackgroundColor(Color.RED);
+               else {
+                  imagem.setVisibility(View.VISIBLE);
+                  resultado.setText("Imagem está mostrada");
                }
-               else if(amarelo.isChecked()) {
-                  layout.setBackgroundColor(Color.YELLOW);
-               }
-               
             }
         });
 

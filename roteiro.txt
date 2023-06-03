@@ -54,9 +54,9 @@ um checkbox desmarca outro
 
 marcando uma cor e pressionando ok, a cor de fundo do layout muda
 
+texOff e textOn
 
-
-
+pressionando o botao toggle a imagem some e desaparece, e o texto fica alternando
 
 
 

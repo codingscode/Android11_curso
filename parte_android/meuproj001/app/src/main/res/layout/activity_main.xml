@@ -18,43 +18,14 @@
         android:scaleType="fitStart"
         app:srcCompat="@drawable/x" />
 
-    <Button
-        android:id="@+id/botao_ok"
-        android:layout_width="300dp"
+    <ToggleButton
+        android:id="@+id/toggleMostrar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/white"
-        android:text="ok"
-        android:textColor="@color/laranja" />
-
-    <RadioGroup
-        android:id="@+id/grupo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal">
-
-        <RadioButton
-            android:id="@+id/rbverde"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="Verde"
-            android:textColor="@color/laranja" />
-
-        <RadioButton
-            android:id="@+id/rbvermelho"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Vermelho"
-            android:textColor="@color/laranja" />
-
-        <RadioButton
-            android:id="@+id/rbamarelo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Amarelo"
-            android:textColor="@color/laranja" />
-    </RadioGroup>
+        android:layout_marginTop="10dp"
+        android:text="ToggleButton"
+        android:textOff="Esconder imagem"
+        android:textOn="Mostrar imagem" />
 
     <TextView
         android:id="@+id/textoresultado"
@@ -66,5 +37,14 @@
         android:text="qual seu gênero?"
         android:textColor="@color/roxo"
         android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/botao_ok"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:text="ok"
+        android:textColor="@color/laranja" />
 
 </LinearLayout>
