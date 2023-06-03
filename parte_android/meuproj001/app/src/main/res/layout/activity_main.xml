@@ -18,14 +18,25 @@
         android:scaleType="fitStart"
         app:srcCompat="@drawable/x" />
 
-    <ToggleButton
-        android:id="@+id/toggleMostrar"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="ToggleButton"
-        android:textOff="Esconder imagem"
-        android:textOn="Mostrar imagem" />
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Selecione um país"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <Spinner
+            android:id="@+id/paisSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textoresultado"

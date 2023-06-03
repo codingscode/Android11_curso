@@ -58,6 +58,59 @@ texOff e textOn
 
 pressionando o botao toggle a imagem some e desaparece, e o texto fica alternando
 
+spinner
+
+Layouts -> LinearLayout(horizontal)
+Containers -> Spinner
+
+a lista de países aparece
+ignorar o vermelho
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
