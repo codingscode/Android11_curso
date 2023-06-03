@@ -66,6 +66,7 @@ Containers -> Spinner
 a lista de países aparece
 ignorar o vermelho
 
+o nome do país selecionado aparece no texto
 
 
 
