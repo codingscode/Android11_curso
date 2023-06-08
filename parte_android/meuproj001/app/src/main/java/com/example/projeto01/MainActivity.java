@@ -4,16 +4,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
     Button ok;
     TextView resultado;
     ImageView imagem;
+    LinearLayout layout;
 
 
     @Override
@@ -25,13 +28,20 @@ public class MainActivity extends AppCompatActivity {
         resultado = findViewById(R.id.textoresultado);
         imagem = findViewById(R.id.imagem);
         
+        layout = findViewById(R.id.layout_linear);
+        
+        
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Toast.makeText(getApplicationContext(), "Isto é uma mensagem torta", Toast.LENGTH_LONG).show();
+               Snackbar.make(layout, "Isto é uma mensagem Snackbar", Snackbar.LENGTH_INDEFINITE).setAction("fechar", new View.OnClickListener() {
+                   @Override
+                   public void onClick(View view) {
+
+                   }
+               }).show();
             }
         });
-
 
 
     }

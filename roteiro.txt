@@ -70,6 +70,8 @@ o nome do país selecionado aparece no texto
 
 pressionando o botao ok aparece uma mensagem
 
+pressionando o botao ok aparece uma mensagem tipo snackbar
+
 
 
 
