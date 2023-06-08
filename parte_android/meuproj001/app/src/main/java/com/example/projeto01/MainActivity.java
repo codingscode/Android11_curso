@@ -1,5 +1,6 @@
 package com.example.projeto01;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -7,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -34,16 +36,30 @@ public class MainActivity extends AppCompatActivity {
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               Snackbar.make(layout, "Isto é uma mensagem Snackbar", Snackbar.LENGTH_INDEFINITE).setAction("fechar", new View.OnClickListener() {
-                   @Override
-                   public void onClick(View view) {
-
-                   }
-               }).show();
+               mostrarMensagemDialog();
             }
         });
 
     // testar também com LENGTH_SHORT
+    }
+
+    private void mostrarMensagemDialog() {
+       AlertDialog.Builder dialogAlerta = new AlertDialog.Builder(this);
+       dialogAlerta.setTitle("deletar")
+               .setMessage("Você quer deletar este texto?")
+               .setNegativeButton("não", new DialogInterface.OnClickListener() {
+                  @Override
+                  public void onClick(DialogInterface dialogInterface, int i) {
+                     dialogInterface.cancel();
+                  }
+               })
+               .setPositiveButton("sim", new DialogInterface.OnClickListener() {
+                   @Override
+                   public void onClick(DialogInterface dialogInterface, int i) {
+                      resultado.setText("");
+                   }
+               }).show();
+        dialogAlerta.create();
     }
 }
 

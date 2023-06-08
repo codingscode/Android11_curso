@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:backgroundTint="@color/white"
-        android:text="ok"
+        android:text="deletar texto do textView"
         android:textColor="@color/laranja" />
 
 </LinearLayout>
