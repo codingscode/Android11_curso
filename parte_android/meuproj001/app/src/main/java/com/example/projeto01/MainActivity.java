@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+    // testar também com LENGTH_SHORT
     }
 }
 
