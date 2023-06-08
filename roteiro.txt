@@ -68,6 +68,7 @@ ignorar o vermelho
 
 o nome do país selecionado aparece no texto
 
+pressionando o botao ok aparece uma mensagem
 
 
 
