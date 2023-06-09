@@ -77,7 +77,8 @@ mensagem dialog
 clicar na pasta do MainActivity.java -> new -> Activity -> Empty Activity
 é criado um xml também
 
-
+na pasta res -> clicar em android resource directory -> escolher (anim, anim)
+na pasta anim criada -> New -> Animation Resource file -> 
 
 
 
