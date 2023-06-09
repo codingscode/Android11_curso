@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">projeto01</string>
     <string-array name="paises">
-       <item>Inglaterra</item>
-       <item>Holanda</item>
-       <item>Singapura</item>
-       <item>Israel</item>
-       <item>Estados Unidos</item>
-       <item>França</item>
-       <item>Portugal</item>
-       <item>Dinamarca</item>
-       <item>Uruguai</item>
+        <item>Inglaterra</item>
+        <item>Holanda</item>
+        <item>Singapura</item>
+        <item>Israel</item>
+        <item>Estados Unidos</item>
+        <item>França</item>
+        <item>Portugal</item>
+        <item>Dinamarca</item>
+        <item>Uruguai</item>
     </string-array>
 </resources>

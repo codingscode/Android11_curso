@@ -74,6 +74,8 @@ pressionando o botao ok aparece uma mensagem tipo snackbar
 
 mensagem dialog
 
+clicar na pasta do MainActivity.java -> new -> Activity -> Empty Activity
+é criado um xml também
 
 
 
