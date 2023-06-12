@@ -1,14 +1,10 @@
 <resources>
-    <string name="app_name">projeto01</string>
-    <string-array name="paises">
-        <item>Inglaterra</item>
-        <item>Holanda</item>
-        <item>Singapura</item>
-        <item>Israel</item>
-        <item>Estados Unidos</item>
-        <item>França</item>
-        <item>Portugal</item>
-        <item>Dinamarca</item>
-        <item>Uruguai</item>
-    </string-array>
+    <string name="app_name">adivinhar numero</string>
+    <string name="info">
+    selecione um número de dígitos.
+    o número de digitos que eu guarde na mente e
+    o número de digitos que você escolhe será o mesmo.
+    também nunca esqueça que você tem 10 chances.
+    </string>
+    
 </resources>
