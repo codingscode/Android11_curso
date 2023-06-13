@@ -82,7 +82,11 @@ na pasta anim criada -> New -> Animation Resource file ->
 
 a animação começa
 
+em build.gradle acrescentar aquela linha e clicar em 'sync now'
 
+experimentar pressionar 'iniciar' com ou sem opção marcada
+
+aparece outra tela
 
 
 
