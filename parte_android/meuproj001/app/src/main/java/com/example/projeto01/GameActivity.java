@@ -76,8 +76,8 @@ public class GameActivity extends AppCompatActivity {
                   int adivUsuario = Integer.parseInt(adivinhar);
                   listaAdiv.add(adivUsuario);
                   
-                  ultimo.setText(adivinhar);
-                  direito.setText(restanteDireito);
+                  ultimo.setText("Sua última adivinhação foi: " + adivinhar);
+                  direito.setText("Seus direitos restantes: " + restanteDireito);
                   
                   if (aleatorio == adivUsuario) {
                      AlertDialog.Builder construtor = new AlertDialog.Builder(GameActivity.this);
@@ -111,7 +111,30 @@ public class GameActivity extends AppCompatActivity {
                      dica.setText("Aumente o valor");
                   }
                   if (restanteDireito == 0) {
-                  
+                     AlertDialog.Builder construtor = new AlertDialog.Builder(GameActivity.this);
+                     construtor.setTitle("Jogo de adivinhar número");
+                     construtor.setCancelable(false);
+                     construtor.setMessage("Desculpe, seu direito de adivinhar acabou" + "\n\nMinha adivinhação foi " + aleatorio + "\n\nSuas adivinhações : " + listaAdiv + "\n\nGostaria de jogas de novo?");
+                     
+                     construtor.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+                         @Override
+                         //public void onClick(DialogInterface dialogInterface, int i) {
+                         public void onClick(DialogInterface dialog, int which) {
+                            Intent intent = new Intent(GameActivity.this, MainActivity.class);
+                            startActivity(intent);
+                            finish();
+                         }
+                     });
+                     construtor.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+                         @Override
+                         //public void onClick(DialogInterface dialogInterface, int i) {
+                         public void onClick(DialogInterface dialog, int which) {
+                            moveTaskToBack(true);
+                            android.os.Process.killProcess(android.os.Process.myPid());
+                            System.exit(1);
+                         }
+                     });
+                     construtor.create().show();                 
                   }
                   
                   textoadivinhar.setText("");
