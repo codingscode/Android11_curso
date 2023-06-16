@@ -5,79 +5,25 @@
     android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EAFF23"
+    android:background="@color/outro"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/texto"
-        android:layout_width="350dp"
-        android:layout_height="277dp"
+        android:layout_width="300dp"
+        android:layout_height="37dp"
         android:background="@color/white"
         android:gravity="center_horizontal|center_vertical"
-        android:text="@string/info"
-        android:textAlignment="center"
+        android:text="texto"
         android:textColor="@color/roxo"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.049" />
-
-    <RadioGroup
-        android:id="@+id/radioGroup"
-        android:layout_width="325dp"
-        android:layout_height="199dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/texto"
-        app:layout_constraintVertical_bias="0.136">
-
-        <RadioButton
-            android:id="@+id/rb1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="número de 2 digitos"
-            android:textColor="#000000"
-            android:textSize="30sp" />
-
-        <RadioButton
-            android:id="@+id/rb2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="número de 3 digitos"
-            android:textColor="#000000"
-            android:textSize="30sp" />
-
-        <RadioButton
-            android:id="@+id/rb3"
-            android:layout_width="wrap_content"
-            android:layout_height="63dp"
-            android:layout_margin="10dp"
-            android:text="número de 4 digitos"
-            android:textColor="#000000"
-            android:textSize="30sp" />
-
-    </RadioGroup>
-
-    <Button
-        android:id="@+id/botaoiniciar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#1EF64D"
-        android:text="iniciar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
-        app:layout_constraintVertical_bias="0.698" />
+        app:layout_constraintVertical_bias="0.075" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
